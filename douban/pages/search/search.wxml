@@ -1,0 +1,25 @@
+<!-- 搜索 -->
+<view class="search">
+  <view class="search-content">
+    <view class="iconfont icon-sousuo"></view>
+    <input type="text" placeholder="搜索" bindinput="inputValue" ></input>
+  </view>
+
+</view>
+<!-- 搜索 -->
+<!-- 记录 -->
+<!-- 记录 -->
+<!-- 内容 -->
+<view class="search-main">
+<!-- wx:for-kay="item"  -->
+  <view class="main-item" wx:for="{{searchList}}"wx:kay="{{index}}" wx:key="this"  bindtap="toDetails" data-id="{{item.id}}" data-name="{{item.type}}" >
+    <image class="item-img" src="{{item.pic.large}}"></image>
+    <view>
+      <view>{{item.title}}</view>
+      <view>
+        <text>评分：{{item.rating.value}}</text>
+      </view>
+    </view>
+  </view>
+</view>
+<!-- 内容 -->

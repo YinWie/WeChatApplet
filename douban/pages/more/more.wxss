@@ -1,0 +1,32 @@
+@import '/pages/templates/stars-template/stars-template.wxss';
+.more{
+  display: flex;
+  flex-wrap: wrap;
+  height: 1600rpx;
+}
+.more-item {
+  width: 200rpx;
+  padding: 25rpx;
+}
+
+.item-img {
+  width: 200rpx;
+  height: 300rpx;
+  border-radius: 10rpx;
+
+}
+.item-title {
+  text-align: center;
+  font-size: 26rpx;
+}
+.item-rating{
+  display: flex;
+  justify-content: space-between;
+}
+.xingji{
+  font-size: 32rpx;
+  color: #999;
+  font-weight: bold;
+  text-align: center;
+  line-height: 30rpx;
+}

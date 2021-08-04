@@ -1,0 +1,105 @@
+@import '/pages/templates/stars-template/stars-template.wxss';
+/* 头部 */
+.name {
+  padding: 20rpx;
+  font-size: 50rpx;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.top{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20rpx;
+}
+.top-img{
+  width: 230rpx;
+  height: 330rpx;
+  border-radius: 10rpx;
+}
+
+.top-stars{
+  margin-bottom: 20rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pf{
+  font-size: 32rpx;
+  color: #999;
+  font-weight: bold;
+  line-height: 30rpx;
+}
+.size{
+  font-size: 32rpx;
+  font-weight: bold;
+  margin-top: 10rpx;
+}
+/* 头部 */
+/* 身体 */
+.body-list{
+  padding: 10rpx;
+  font-size: 30rpx;
+  background-color: #F5F5F5;
+  border-radius: 20rpx;
+  margin-left: 20rpx;
+  margin-bottom: 20rpx;
+}
+.body-top{
+  font-size: 30rpx;
+  color: #ccc;
+  padding: 20rpx;
+}
+.body-bq{
+  width: 100%;
+  display: flex;
+  flex-flow: wrap;
+}
+/* 身体 */
+/* 底部 */
+.but{
+  margin-top: 20px;
+  padding: 20rpx;
+}
+.but text{
+  font-size: 30rpx;
+  color: #ccc;
+}
+.but-pl{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+.but-img{
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  padding: 20rpx;
+}
+.but-img image{
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+}
+.but-top{
+  display: flex;
+  flex-direction: row;
+}
+.but-name{
+  font-size: 36rpx;
+  font-weight: bold;
+  margin-right: 20px;
+}
+.but-time{
+  font-size: 30rpx;
+  color: #ccc;
+}
+.but-but{
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #42BD56;
+  text-align: center;
+  padding: 10px;
+
+}
+/* 底部 */
+

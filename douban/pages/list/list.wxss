@@ -1,0 +1,51 @@
+@import '/pages/templates/stars-template/stars-template.wxss';
+.but{
+  margin-top: 20px;
+  padding: 20rpx;
+}
+.but text{
+  font-size: 30rpx;
+  color: #ccc;
+}
+.but-pl{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+.but-img{
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  padding: 20rpx;
+}
+.but-img image{
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+}
+.but-top{
+  display: flex;
+  flex-direction: row;
+}
+.but-name{
+  font-size: 36rpx;
+  font-weight: bold;
+  margin-right: 20px;
+}
+.but-time{
+  font-size: 30rpx;
+  color: #ccc;
+}
+.but-but{
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #42BD56;
+  text-align: center;
+  padding: 10px;
+
+}
+.top-stars{
+  margin-bottom: 20rpx;
+  display: flex;
+  justify-content: space-between;
+}

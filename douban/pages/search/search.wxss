@@ -1,0 +1,45 @@
+/* 搜索 */
+.search{
+  background-color: #42bd56;
+  padding: 20rpx 30rpx;
+}
+.search-content{
+  display: flex;
+  padding: 6rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+
+}
+.search-content view{
+line-height: 60rpx;
+padding-left: 10rpx;
+}
+.search-content input{
+  height: 60rpx;
+  width: 100%;
+  padding-left: 10rpx;
+  color:#ccc;
+  font-size: 28rpx;
+}
+/* 搜索 */
+/* 内容 */
+.search-main{
+  padding: 20rpx;
+}
+.main-item{
+  display: flex;
+  margin-bottom: 20rpx;
+}
+.item-img{
+  width: 120rpx;
+  height: 150rpx;
+  border-radius: 10rpx;
+
+}
+
+/* 内容 */
+
+/* 记录 */
+
+
+/* 记录 */

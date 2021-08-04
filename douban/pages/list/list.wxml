@@ -1,0 +1,24 @@
+<import src="/pages/templates/stars-template/stars-template.wxml" />
+<view>
+  <view class="but">
+    <text>评论</text>
+    <text>({{number}})</text>
+  </view>
+  <view class="but-pl" wx:for="{{nameList}}" wx:for-item="j"wx:key="{{index}}" wx:key="this" >
+    <view class="but-img">
+      <image src="{{j.user.avatar}}"></image>
+    </view>
+    <view class="but-list">
+      <view class="but-top">
+        <view class="but-name">{{j.user.name}}</view>
+        <view class="top-stars">
+          <template is="stars" data="{{j}}" />
+        </view>
+      </view>
+      <view class="but-time">{{j.create_time}}</view>
+      <view>{{j.comment}}</view>
+       
+    </view>
+
+  </view>
+</view>

@@ -1,0 +1,58 @@
+<import src="/pages/templates/stars-template/stars-template.wxml" />
+<view class="name">{{title}}</view>
+<view class="top">
+  <view class="top-list">
+    <view class="top-stars">
+      <template is="stars" data="{{item}}" />
+      <text class="pf" wx:if="{{nb.value==0}}">暂无</text>
+      <text class="pf" wx:else="">{{nb.value}}</text>
+      <text class="pf" space="nbsp"> {{item.rating.count}}人</text>
+    </view>
+    <view class="size">{{item.durations[0]}} {{genres}}</view>
+    <view class="size">{{pubdate}}上映 中国大陆</view>
+    <!-- <view class="size">管虎(导演)张译/吴京/李九霄</view> -->
+    <block wx:for="{{item.actors}}" wx:for-item="i" wx:key="this">
+      <text class="size ">{{i.name}}/</text>
+    </block>
+  </view>
+  <view>
+    <image src="{{tvimg.large}}" class="top-img"></image>
+  </view>
+</view>
+<!-- 身体 -->
+<view>
+  <view class="body-top">豆瓣成员常用标签</view>
+  <view class="body-bq">
+    <block wx:for="{{item.tags}}" wx:for-item="i"wx:key="{{index}}" wx:key="this">
+      <text class="body-list">{{i.name}}</text>
+    </block>
+  </view>
+</view>
+<!-- 身体 -->
+<!-- 底部 -->
+<view>
+  <view class="but">
+    <text>短评</text>
+    <text>({{number}})</text>
+  </view>
+  <view class="but-pl" wx:for="{{nameList}}" wx:for-item="j"wx:key="{{index}}" wx:key="this" >
+    <view class="but-img">
+      <image src="{{j.user.avatar}}"></image>
+    </view>
+    <view class="but-list">
+      <view class="but-top">
+        <view class="but-name">{{j.user.name}}</view>
+        <view class="top-stars">
+          <template is="stars" data="{{j}}" />
+        </view>
+      </view>
+      <view class="but-time">{{j.create_time}}</view>
+      <view>{{j.comment}}</view>
+       
+    </view>
+
+  </view>
+ <view class="but-but" bindtap="toList"data-id="{{id}}"data-name="{{item.type}}" >查看更多短评</view>
+
+</view>
+<!-- 底部 -->

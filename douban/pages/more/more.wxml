@@ -1,0 +1,17 @@
+<import src="/pages/templates/stars-template/stars-template.wxml" />
+<scroll-view scroll-y="ture" bindscrolltolower="lodeMore">
+  <view class="more">
+    <!-- 1 -->
+    <view class="more-item" wx:for="{{allMore}}" wx:key="{{index}}" wx:key="this"bindtap="toDetails" data-id="{{item.id}}" data-name="{{item.type}}">
+      <image class="item-img" src="{{item.cover.url}}"></image>
+      <view class="item-title  overflow-name">{{item.title}}</view>
+      <view class="item-rating">
+        <template is="stars" data="{{item}}" />
+        <text class="xingji" wx:if="{{item.rating.value==null}}">无</text>
+        <text class="xingji" wx:else="">{{item.rating.value}}</text>
+
+      </view>
+    </view>
+    <!-- 1 -->
+  </view>
+</scroll-view>

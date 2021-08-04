@@ -1,0 +1,20 @@
+{
+  "pages": [
+    
+    "pages/home/home",
+    "pages/templates/stars-template/stars-template",
+     "pages/details/details",
+     "pages/more/more",
+     "pages/search/search",
+     "pages/list/list"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#42bd56",
+    "navigationBarTitleText": "豆瓣",
+    "navigationBarTextStyle": "white"
+  },
+ 
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,32 @@
+<import src="/pages/templates/stars-template/stars-template.wxml" />
+<view class="header-search">
+  <view class="search-main" bindtap="toSearch">
+    <text class="iconfont icon-sousuo"></text>
+    搜索
+  </view>
+</view>
+
+<view class="container">
+
+  <view class="list" wx:for="{{list}}" wx:kay="{{index}}" wx:key="this">
+    <view class="list-header">
+      <view>{{item.title}}</view>
+      <view class="header-content" bindtap="toMore" data-title="{{item.title}}">查看更多 <text>></text></view>
+    </view>
+<scroll-view scroll-x="true">
+    <view class="list-img">
+      <!-- 1 -->
+        <view class="img-item" wx:for="{{item.move.subject_collection_items}}" wx:for-kay="item" wx:kay="{{index}}" wx:key="this" bindtap="toDetails" data-id="{{item.id}}" data-name="{{item.type}}" > 
+         <image class="item-logo" src="{{item.cover.url}}"></image>
+           <view class="item-name overflow-name">{{item.title}}</view>
+           <view class="img-stars">
+                <template is="stars" data="{{item}}"/>
+                <text class="xingji" wx:if="{{item.rating.value==null}}">无</text>
+             <text class="xingji" wx:else="">{{item.rating.value}}</text>
+           </view>
+        </view>
+        <!-- 1 -->
+    </view> 
+  </scroll-view>
+</view>
+</view>
