@@ -1,0 +1,9 @@
+/* pages/n1/n1.wxss */
+.img1{
+  height: 360rpx;
+  width: 100%;
+}
+.text{
+  color: #B2B2B2;
+  font-size: 12px;
+}

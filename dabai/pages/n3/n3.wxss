@@ -1,0 +1,20 @@
+/* pages/n3/n3.wxss */
+.img1{
+  height: 360rpx;
+  width: 100%;
+}
+.box{
+  margin-top: 15px;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.img2{
+  height: 180px;
+  width: 80%;
+}
+.box2{  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 12px;
+}

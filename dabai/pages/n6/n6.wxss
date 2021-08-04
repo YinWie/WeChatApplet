@@ -1,0 +1,74 @@
+/* pages/n6/n6.wxss */
+.img {
+  height: 150px;
+  width: 100%;
+}
+
+.box1 {
+  text-align: center;
+  height: 30px;
+}
+
+.box2 {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.box2-1 {
+  height: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.r {
+  margin-left: 5%;
+}
+
+.l {
+  margin-left: 50%;
+}
+
+.l2 {
+  margin-left: 25%;
+}
+
+text {
+  font-size: 12px;
+  color: #F0F0F0;
+}
+
+.text2 {
+  font-size: 20px;
+  color: red;
+}
+
+.xian {
+  height: 1px;
+  background-color: #F0F0F0;
+}
+
+.box3 {
+  height: 60px;
+  width: 100%;
+  text-align: center;
+}
+.bt {
+  height: 40PX;
+  width: 90%;
+  margin-top: 20PX;
+  background-color: #1AAC19;
+  color: white;
+  font-size: 12px;
+}
+.xian2{
+  height: 6px;
+  background-color: #F0F0F0;
+}
+.box5{
+  margin-left: 20px;
+  margin-right: 20px;
+}

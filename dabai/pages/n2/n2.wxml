@@ -1,0 +1,8 @@
+<!--pages/n2/n2.wxml-->
+<view class="box">
+  <image src="/image/f1.jpg" class="img1"></image>
+</view>
+<view class="box1">01商品详情</view>
+<view class="box2"></view>
+<view class="box3"><text>维意风格「郁金飘香」，以纯白色、深棕色为主，整体感觉典雅、细腻。该风格的面板是.“胡桃木+白牡丹吸塑”，融合了现代与中式的设计风格，在款式和色调上强调简约‘舒适、温馨。此设计去繁就简、张弛有度，体现了现代人追求简约精致的高质量生活理念。</text></view>
+<image src="/image/f2.jpg" class="img2"></image>

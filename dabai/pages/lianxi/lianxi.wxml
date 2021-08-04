@@ -1,0 +1,20 @@
+<!--pages/lianxi/lianxi.wxml-->
+<image src="/image/lx.jpg" class="img"></image>
+<view class="box" bindtap="telephone">
+  <view><image src="/image/tel.png"></image></view>
+  <view>电话: 15354880068 (点击拨号)</view>
+</view>
+<view class="box">
+  <view><image src="/image/weixin.png"></image></view>
+  <view>微信:泉州大白网络科技</view>
+</view>
+<view class="box">
+  <view><image src="/image/email.png"></image></view>
+  <view>邮件: laosan0070@163.com</view>
+</view>
+<view class="box" bindtap="map">
+  <view><image src="/image/map.png"></image></view>
+  <view>内蒙古呼和浩特市托克托县光明路</view>
+</view>
+<button class="but">在线客服</button>
+<text class="tex">@2017泉州大白网络科技版权所有</text>

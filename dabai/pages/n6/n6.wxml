@@ -1,0 +1,22 @@
+<!--pages/n6/n6.wxml-->
+<image src="/image/h1.jpg" class="img"></image>
+<view class="box1">木地板</view>
+<view class="xian"></view>
+<view class="box2">
+  <view class="box2-1">
+    <view class="r text">库存:1009</view>
+    <view class="l text">运费:12</view>
+  </view>
+  <view class="box2-1">
+    <view class="r text">原价：￥1000</view>
+    <view class="l2 text2">现价：￥888</view>
+  </view>
+</view>
+<view class="xian"></view>
+<view class="box3">
+<button class="bt">电话订单</button>
+</view>
+<view class="xian2"></view>
+<view class="box1">商品详情</view>
+<view class="xian"></view>
+<view class="box5">本店所有商品介绍、本店所有商品介绍、本店所有商品介绍、本店所有商品介绍、本店所有商品介绍、本店所有商品介绍、本店所有商品介绍</view>

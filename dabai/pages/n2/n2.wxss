@@ -1,0 +1,40 @@
+/* pages/n2/n2.wxss */
+.box {
+  height: 400rpx;
+  width: 100%;
+  background-color: #F0F0F0;
+}
+.img1{
+  height: 370rpx;
+  width: 100%;
+}
+.box1 {
+  margin-top: 10px;
+  text-align: center;
+  height: 30px;
+  width: 100%;
+  background-color: white;
+}
+
+.box2 {
+  height: 2px;
+  width: 100%;
+  background-color: #F0F0F0;
+}
+
+.box3 {
+  height: 140px;
+  width: 100%;
+  background-color: white;  
+  margin-left: 5px;
+}
+.box3>text{
+  font-size: 12px;
+  color: #000;
+
+}
+.img2{
+  height: 150px;
+  width: 100%;
+
+}

@@ -1,0 +1,16 @@
+/* pages/n4/n4.wxss */
+
+.img1{
+  height: 150px;
+  width: 95%;
+}
+.box{  
+  margin-top: 15px;
+  height: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.text{
+  font-size: 12px;
+}

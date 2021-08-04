@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/canpin/canpin",
+    "pages/lianxi/lianxi",
+    "pages/n1/n1",
+    "pages/n2/n2",
+    "pages/n3/n3",
+    "pages/n4/n4",
+    "pages/n5/n5",
+    "pages/n6/n6"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1AAC19",
+    "navigationBarTitleText": "泉州大白网络科技",
+    "navigationBarTextStyle": "white"
+
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "image/12.png",
+      "selectedIconPath": "image/11.png"
+    }, {
+      "pagePath": "pages/canpin/canpin",
+      "text": "产品展示",
+      "iconPath": "image/32.png",
+      "selectedIconPath": "image/31.png"
+    }, {
+      "pagePath": "pages/lianxi/lianxi",
+      "text": "联系我们",
+      "iconPath": "image/22.png",
+      "selectedIconPath": "image/21.png"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

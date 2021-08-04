@@ -1,0 +1,31 @@
+/* pages/lianxi/lianxi.wxss */
+.img{
+  height: 400rpx;
+}
+.box{
+  height:30px ;
+  width: 100%;
+  margin-left: 10%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.box>view>image{
+  height: 10px;
+  width: 10px;
+}
+.box>view{
+  font-size: 16px;
+}
+.but{
+  height: 40px;
+  width: 90%;
+  background-color: #1CAC17;
+  color: white;
+}
+.tex{
+  margin-top: 20px;
+  margin-left: 10%;
+  color: #878B99;
+
+}

@@ -1,0 +1,9 @@
+<!--pages/n4/n4.wxml-->
+<text class="text" space="nbsp">     公司动态，公司动态，公司动态，公司动态，公司动态，公司动态，公司动态，公司动态，公司动态，公司动态，公司动态，公司动态，</text>
+<view class="box">
+  <image src="/image/q2.jpg" class="img1"></image>
+</view>
+<text class="text" space="nbsp">     公司动态，公司动态，公司动态，公司动态，公司动态，公司动态，公司动态，公司动态，公司动态，公司动态，公司动态，公司动态，</text>
+<view class="box">
+  <image src="/image/q1.jpg" class="img1"></image>
+</view>

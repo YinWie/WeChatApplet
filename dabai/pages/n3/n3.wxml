@@ -1,0 +1,11 @@
+<!--pages/n3/n3.wxml-->
+<image src="/image/d1.jpg" class="img1"></image>
+<view class="box">
+  <image src="/image/2.jpg" class="img2"></image>
+</view>
+<view class="box2"><text class="text" space="nbsp">     对案例进行描述对案例进行描述对案例进行描述对案例进行描述对案例进行描述
+</text></view>
+
+<view class="box">
+  <image src="/image/3.jpg" class="img2"></image>
+</view>
